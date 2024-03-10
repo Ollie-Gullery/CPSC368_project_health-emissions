@@ -1,215 +1,215 @@
-,CarbonDioxideEmissions,NitrousOxideEmissions,TotalGHGEmissions,MethaneEmissions,Country,EmissionID,CountryID,Name
-0,,,,,Afghanistan,1,1,Afghanistan
-1,,,,,Albania,2,2,Albania
-2,,,,,Algeria,3,3,Algeria
-3,,24.0,58.8,13.0,American Samoa,4,4,American Samoa
-4,462.0,0.0,,,Andorra,5,5,Andorra
-5,,,,,Angola,6,6,Angola
-6,532.0,26.0,552.7,43.0,Antigua and Barbuda,7,7,Antigua and Barbuda
-7,,,,,Argentina,8,8,Argentina
-8,,,,,Armenia,9,9,Armenia
-9,873.0,6.0,,23.0,Aruba,10,10,Aruba
-10,,,,,Australia,11,11,Australia
-11,,,,,Austria,12,12,Austria
-12,,,,,Azerbaijan,13,13,Azerbaijan
-13,,131.0,,227.0,"Bahamas, The",14,14,"Bahamas, The"
-14,,131.0,,,Bahrain,15,15,Bahrain
-15,,,,,Bangladesh,16,16,Bangladesh
-16,,59.0,,109.0,Barbados,17,17,Barbados
-17,,,,,Belarus,18,18,Belarus
-18,,,,,Belgium,19,19,Belgium
-19,495.0,200.0,,228.0,Belize,20,20,Belize
-20,,,,,Benin,21,21,Benin
-21,576.0,21.0,632.9,31.0,Bermuda,22,22,Bermuda
-22,,555.0,,,Bhutan,23,23,Bhutan
-23,,,,,Bolivia,24,24,Bolivia
-24,,,,,Bosnia and Herzegovina,25,25,Bosnia and Herzegovina
-25,,,,,Botswana,26,26,Botswana
-26,,,,,Brazil,27,27,Brazil
-27,,342.0,,,Brunei Darussalam,28,28,Brunei Darussalam
-28,,,,,Bulgaria,29,29,Bulgaria
-29,,,,,Burkina Faso,30,30,Burkina Faso
-30,440.0,789.0,,,Burundi,31,31,Burundi
-31,491.0,81.0,,151.0,Cabo Verde,32,32,Cabo Verde
-32,,,,,Cambodia,33,33,Cambodia
-33,,,,,Cameroon,34,34,Cameroon
-34,,,,,Canada,35,35,Canada
-35,543.0,14.0,,29.0,Cayman Islands,36,36,Cayman Islands
-36,301.0,,,,Central African Republic,37,37,Central African Republic
-37,730.0,,,,Chad,38,38,Chad
-38,,,,,Channel Islands,39,39,Channel Islands
-39,,,,,Chile,40,40,Chile
-40,,,,,China,41,41,China
-41,,476.0,,,"Hong Kong SAR, China",42,42,"Hong Kong SAR, China"
-42,,12.0,,151.0,"Macao SAR, China",43,43,"Macao SAR, China"
-43,,,,,Colombia,44,44,Colombia
-44,154.0,59.0,564.2,284.0,Comoros,45,45,Comoros
-45,,,,,"Congo, Dem. Rep.",46,46,"Congo, Dem. Rep."
-46,,,,,"Congo, Rep.",47,47,"Congo, Rep."
-47,,,,,Costa Rica,48,48,Costa Rica
-48,,,,,Cote d'Ivoire,49,49,Cote d'Ivoire
-49,,,,,Croatia,50,50,Croatia
-50,,,,,Cuba,51,51,Cuba
-51,,,,,Curacao,52,52,Curacao
-52,,315.0,,642.0,Cyprus,53,53,Cyprus
-53,,,,,Czech Republic,54,54,Czech Republic
-54,,,,,Denmark,55,55,Denmark
-55,722.0,257.0,,634.0,Djibouti,56,56,Djibouti
-56,136.0,21.0,222.8,41.0,Dominica,57,57,Dominica
-57,,,,,Dominican Republic,58,58,Dominican Republic
-58,,,,,Ecuador,59,59,Ecuador
-59,,,,,"Egypt, Arab Rep.",60,60,"Egypt, Arab Rep."
-60,,,,,El Salvador,61,61,El Salvador
-61,,37.0,,,Equatorial Guinea,62,62,Equatorial Guinea
-62,697.0,,,,Eritrea,63,63,Eritrea
-63,,951.0,,,Estonia,64,64,Estonia
-64,,,,,Ethiopia,65,65,Ethiopia
-65,,7.0,,39.0,Faroe Islands,66,66,Faroe Islands
-66,598.0,344.0,,715.0,Fiji,67,67,Fiji
-67,,,,,Finland,68,68,Finland
-68,,,,,France,69,69,France
-69,,37.0,,99.0,French Polynesia,70,70,French Polynesia
-70,803.0,838.0,,,Gabon,71,71,Gabon
-71,,500.0,,,"Gambia, The",72,72,"Gambia, The"
-72,513.0,,,,Georgia,73,73,Georgia
-73,,,,,Germany,74,74,Germany
-74,,,,,Ghana,75,75,Ghana
-75,,,,,Greece,76,76,Greece
-76,,231.0,,29.0,Greenland,77,77,Greenland
-77,506.0,26.0,726.2,37.0,Grenada,78,78,Grenada
-78,242.0,2.0,85.9,71.0,Guam,79,79,Guam
-79,,,,,Guatemala,80,80,Guatemala
-80,,,,,Guinea,81,81,Guinea
-81,,990.0,,,Guinea-Bissau,82,82,Guinea-Bissau
-82,271.0,,,,Guyana,83,83,Guyana
-83,,,,,Haiti,84,84,Haiti
-84,,,,,Honduras,85,85,Honduras
-85,,,,,Hungary,86,86,Hungary
-86,,369.0,,359.0,Iceland,87,87,Iceland
-87,,,,,India,88,88,India
-88,,,,,Indonesia,89,89,Indonesia
-89,,,,,"Iran, Islamic Rep.",90,90,"Iran, Islamic Rep."
-90,,,,,Iraq,91,91,Iraq
-91,,,,,Ireland,92,92,Ireland
-92,,,,,Isle of Man,93,93,Isle of Man
-93,,,,,Israel,94,94,Israel
-94,,,,,Italy,95,95,Italy
-95,,656.0,,,Jamaica,96,96,Jamaica
-96,,,,,Japan,97,97,Japan
-97,,605.0,,,Jordan,98,98,Jordan
-98,,,,,Kazakhstan,99,99,Kazakhstan
-99,,,,,Kenya,100,100,Kenya
-100,,4.0,,16.0,Kiribati,101,101,Kiribati
-101,62.0,,,,"Korea, Dem. People’s Rep.",102,102,"Korea, Dem. People’s Rep."
-102,,,,,"Korea, Rep.",103,103,"Korea, Rep."
-103,,0.0,,0.0,Kosovo,104,104,Kosovo
-104,,704.0,,,Kuwait,105,105,Kuwait
-105,,,,,Kyrgyz Republic,106,106,Kyrgyz Republic
-106,,,,,Lao PDR,107,107,Lao PDR
-107,,,,,Latvia,108,108,Latvia
-108,,462.0,,,Lebanon,109,109,Lebanon
-109,,428.0,,,Lesotho,110,110,Lesotho
-110,,337.0,,,Liberia,111,111,Liberia
-111,935.0,,,,Libya,112,112,Libya
-112,,,,,Liechtenstein,113,113,Liechtenstein
-113,44.0,,,,Lithuania,114,114,Lithuania
-114,,473.0,,,Luxembourg,115,115,Luxembourg
-115,,526.0,,,North Macedonia,116,116,North Macedonia
-116,,,,,Madagascar,117,117,Madagascar
-117,,,,,Malawi,118,118,Malawi
-118,,,,,Malaysia,119,119,Malaysia
-119,,27.0,,52.0,Maldives,120,120,Maldives
-120,,,,,Mali,121,121,Mali
-121,,61.0,,141.0,Malta,122,122,Malta
-122,,0.0,,8.0,Marshall Islands,123,123,Marshall Islands
-123,103.0,,,,Mauritania,124,124,Mauritania
-124,,170.0,,311.0,Mauritius,125,125,Mauritius
-125,,,,,Mexico,126,126,Mexico
-126,,11.0,,30.0,"Micronesia, Fed. Sts.",127,127,"Micronesia, Fed. Sts."
-127,150.0,686.0,,,Moldova,128,128,Moldova
-128,,,,,Monaco,129,129,Monaco
-129,,,,,Mongolia,130,130,Mongolia
-130,,0.0,,0.0,Montenegro,131,131,Montenegro
-131,,,,,Morocco,132,132,Morocco
-132,,,,,Mozambique,133,133,Mozambique
-133,,,,,Myanmar,134,134,Myanmar
-134,,,,,Namibia,135,135,Namibia
-135,,,,,Nepal,136,136,Nepal
-136,,,,,Netherlands,137,137,Netherlands
-137,,98.0,,215.0,New Caledonia,138,138,New Caledonia
-138,,,,,New Zealand,139,139,New Zealand
-139,,,,,Nicaragua,140,140,Nicaragua
-140,,,,,Niger,141,141,Niger
-141,,,,,Nigeria,142,142,Nigeria
-142,,0.0,12.5,12.0,Northern Mariana Islands,143,143,Northern Mariana Islands
-143,,,,,Norway,144,144,Norway
-144,,,,,Oman,145,145,Oman
-145,,,,,Pakistan,146,146,Pakistan
-146,,0.0,,1.0,Palau,147,147,Palau
-147,260.0,,,,Panama,148,148,Panama
-148,,,,,Papua New Guinea,149,149,Papua New Guinea
-149,,,,,Paraguay,150,150,Paraguay
-150,,,,,Peru,151,151,Peru
-151,,,,,Philippines,152,152,Philippines
-152,,,,,Poland,153,153,Poland
-153,,,,,Portugal,154,154,Portugal
-154,,220.0,,,Puerto Rico,155,155,Puerto Rico
-155,,339.0,,,Qatar,156,156,Qatar
-156,,,,,Romania,157,157,Romania
-157,,,,,Russian Federation,158,158,Russian Federation
-158,,,,,Rwanda,159,159,Rwanda
-159,840.0,40.0,356.1,133.0,Samoa,160,160,Samoa
-160,198.0,,,,San Marino,161,161,San Marino
-161,,10.0,195.5,46.0,Sao Tome and Principe,162,162,Sao Tome and Principe
-162,114.0,,,,Saudi Arabia,163,163,Saudi Arabia
-163,,,,,Senegal,164,164,Senegal
-164,,,,,Serbia,165,165,Serbia
-165,,23.0,910.3,24.0,Seychelles,166,166,Seychelles
-166,495.0,,,,Sierra Leone,167,167,Sierra Leone
-167,,,,,Singapore,168,168,Singapore
-168,,,,,Sint Maarten (Dutch part),169,169,Sint Maarten (Dutch part)
-169,733.0,,,,Slovak Republic,170,170,Slovak Republic
-170,,,,,Slovenia,171,171,Slovenia
-171,,,,,Solomon Islands,172,172,Solomon Islands
-172,202.0,,,,Somalia,173,173,Somalia
-173,609.0,,,,South Africa,174,174,South Africa
-174,,,,,South Sudan,175,175,South Sudan
-175,,,,,Spain,176,176,Spain
-176,,,,,Sri Lanka,177,177,Sri Lanka
-177,,15.0,,30.0,St. Kitts and Nevis,178,178,St. Kitts and Nevis
-178,231.0,35.0,598.8,44.0,St. Lucia,179,179,St. Lucia
-179,407.0,,,,St. Martin (French part),180,180,St. Martin (French part)
-180,,18.0,319.2,40.0,St. Vincent and the Grenadines,181,181,St. Vincent and the Grenadines
-181,209.0,,,,Sudan,182,182,Sudan
-182,,273.0,,709.0,Suriname,183,183,Suriname
-183,,569.0,,,Eswatini,184,184,Eswatini
-184,,,,,Sweden,185,185,Sweden
-185,,,,,Switzerland,186,186,Switzerland
-186,,,,,Syrian Arab Republic,187,187,Syrian Arab Republic
-187,,,,,Tajikistan,188,188,Tajikistan
-188,,,,,Tanzania,189,189,Tanzania
-189,,,,,Thailand,190,190,Thailand
-190,469.0,226.0,959.3,732.0,Timor-Leste,191,191,Timor-Leste
-191,,,,,Togo,192,192,Togo
-192,121.0,22.0,155.3,61.0,Tonga,193,193,Tonga
-193,,281.0,,,Trinidad and Tobago,194,194,Trinidad and Tobago
-194,,,,,Tunisia,195,195,Tunisia
-195,,,,,Turkey,196,196,Turkey
-196,,,,,Turkmenistan,197,197,Turkmenistan
-197,205.0,1.0,,6.0,Turks and Caicos Islands,198,198,Turks and Caicos Islands
-198,11.0,1.0,5.2,3.0,Tuvalu,199,199,Tuvalu
-199,,,,,Uganda,200,200,Uganda
-200,,,,,Ukraine,201,201,Ukraine
-201,,,,,United Arab Emirates,202,202,United Arab Emirates
-202,,,,,United Kingdom,203,203,United Kingdom
-203,,,,,United States,204,204,United States
-204,,,,,Uruguay,205,205,Uruguay
-205,,,,,Uzbekistan,206,206,Uzbekistan
-206,154.0,109.0,446.2,254.0,Vanuatu,207,207,Vanuatu
-207,,,,,"Venezuela, RB",208,208,"Venezuela, RB"
-208,,,,,Vietnam,209,209,Vietnam
-209,,13.0,61.5,47.0,Virgin Islands (U.S.),210,210,Virgin Islands (U.S.)
-210,,,,,West Bank and Gaza,211,211,West Bank and Gaza
-211,,,,,"Yemen, Rep.",212,212,"Yemen, Rep."
-212,,,,,Zambia,213,213,Zambia
-213,,,,,Zimbabwe,214,214,Zimbabwe
+,CarbonDioxideEmissions,NitrousOxideEmissions,TotalGHGEmissions,MethaneEmissions,EmissionID,CountryID,Name
+0,,,,,1,1,Afghanistan
+1,,,,,2,2,Albania
+2,,,,,3,3,Algeria
+3,,24.0,58.8,13.0,4,4,American Samoa
+4,462.0,0.0,,,5,5,Andorra
+5,,,,,6,6,Angola
+6,532.0,26.0,552.7,43.0,7,7,Antigua and Barbuda
+7,,,,,8,8,Argentina
+8,,,,,9,9,Armenia
+9,873.0,6.0,,23.0,10,10,Aruba
+10,,,,,11,11,Australia
+11,,,,,12,12,Austria
+12,,,,,13,13,Azerbaijan
+13,,131.0,,227.0,14,14,"Bahamas, The"
+14,,131.0,,,15,15,Bahrain
+15,,,,,16,16,Bangladesh
+16,,59.0,,109.0,17,17,Barbados
+17,,,,,18,18,Belarus
+18,,,,,19,19,Belgium
+19,495.0,200.0,,228.0,20,20,Belize
+20,,,,,21,21,Benin
+21,576.0,21.0,632.9,31.0,22,22,Bermuda
+22,,555.0,,,23,23,Bhutan
+23,,,,,24,24,Bolivia
+24,,,,,25,25,Bosnia and Herzegovina
+25,,,,,26,26,Botswana
+26,,,,,27,27,Brazil
+27,,342.0,,,28,28,Brunei Darussalam
+28,,,,,29,29,Bulgaria
+29,,,,,30,30,Burkina Faso
+30,440.0,789.0,,,31,31,Burundi
+31,491.0,81.0,,151.0,32,32,Cabo Verde
+32,,,,,33,33,Cambodia
+33,,,,,34,34,Cameroon
+34,,,,,35,35,Canada
+35,543.0,14.0,,29.0,36,36,Cayman Islands
+36,301.0,,,,37,37,Central African Republic
+37,730.0,,,,38,38,Chad
+38,,,,,39,39,Channel Islands
+39,,,,,40,40,Chile
+40,,,,,41,41,China
+41,,476.0,,,42,42,"Hong Kong SAR, China"
+42,,12.0,,151.0,43,43,"Macao SAR, China"
+43,,,,,44,44,Colombia
+44,154.0,59.0,564.2,284.0,45,45,Comoros
+45,,,,,46,46,"Congo, Dem. Rep."
+46,,,,,47,47,"Congo, Rep."
+47,,,,,48,48,Costa Rica
+48,,,,,49,49,Cote d'Ivoire
+49,,,,,50,50,Croatia
+50,,,,,51,51,Cuba
+51,,,,,52,52,Curacao
+52,,315.0,,642.0,53,53,Cyprus
+53,,,,,54,54,Czech Republic
+54,,,,,55,55,Denmark
+55,722.0,257.0,,634.0,56,56,Djibouti
+56,136.0,21.0,222.8,41.0,57,57,Dominica
+57,,,,,58,58,Dominican Republic
+58,,,,,59,59,Ecuador
+59,,,,,60,60,"Egypt, Arab Rep."
+60,,,,,61,61,El Salvador
+61,,37.0,,,62,62,Equatorial Guinea
+62,697.0,,,,63,63,Eritrea
+63,,951.0,,,64,64,Estonia
+64,,,,,65,65,Ethiopia
+65,,7.0,,39.0,66,66,Faroe Islands
+66,598.0,344.0,,715.0,67,67,Fiji
+67,,,,,68,68,Finland
+68,,,,,69,69,France
+69,,37.0,,99.0,70,70,French Polynesia
+70,803.0,838.0,,,71,71,Gabon
+71,,500.0,,,72,72,"Gambia, The"
+72,513.0,,,,73,73,Georgia
+73,,,,,74,74,Germany
+74,,,,,75,75,Ghana
+75,,,,,76,76,Greece
+76,,231.0,,29.0,77,77,Greenland
+77,506.0,26.0,726.2,37.0,78,78,Grenada
+78,242.0,2.0,85.9,71.0,79,79,Guam
+79,,,,,80,80,Guatemala
+80,,,,,81,81,Guinea
+81,,990.0,,,82,82,Guinea-Bissau
+82,271.0,,,,83,83,Guyana
+83,,,,,84,84,Haiti
+84,,,,,85,85,Honduras
+85,,,,,86,86,Hungary
+86,,369.0,,359.0,87,87,Iceland
+87,,,,,88,88,India
+88,,,,,89,89,Indonesia
+89,,,,,90,90,"Iran, Islamic Rep."
+90,,,,,91,91,Iraq
+91,,,,,92,92,Ireland
+92,,,,,93,93,Isle of Man
+93,,,,,94,94,Israel
+94,,,,,95,95,Italy
+95,,656.0,,,96,96,Jamaica
+96,,,,,97,97,Japan
+97,,605.0,,,98,98,Jordan
+98,,,,,99,99,Kazakhstan
+99,,,,,100,100,Kenya
+100,,4.0,,16.0,101,101,Kiribati
+101,62.0,,,,102,102,"Korea, Dem. People’s Rep."
+102,,,,,103,103,"Korea, Rep."
+103,,0.0,,0.0,104,104,Kosovo
+104,,704.0,,,105,105,Kuwait
+105,,,,,106,106,Kyrgyz Republic
+106,,,,,107,107,Lao PDR
+107,,,,,108,108,Latvia
+108,,462.0,,,109,109,Lebanon
+109,,428.0,,,110,110,Lesotho
+110,,337.0,,,111,111,Liberia
+111,935.0,,,,112,112,Libya
+112,,,,,113,113,Liechtenstein
+113,44.0,,,,114,114,Lithuania
+114,,473.0,,,115,115,Luxembourg
+115,,526.0,,,116,116,North Macedonia
+116,,,,,117,117,Madagascar
+117,,,,,118,118,Malawi
+118,,,,,119,119,Malaysia
+119,,27.0,,52.0,120,120,Maldives
+120,,,,,121,121,Mali
+121,,61.0,,141.0,122,122,Malta
+122,,0.0,,8.0,123,123,Marshall Islands
+123,103.0,,,,124,124,Mauritania
+124,,170.0,,311.0,125,125,Mauritius
+125,,,,,126,126,Mexico
+126,,11.0,,30.0,127,127,"Micronesia, Fed. Sts."
+127,150.0,686.0,,,128,128,Moldova
+128,,,,,129,129,Monaco
+129,,,,,130,130,Mongolia
+130,,0.0,,0.0,131,131,Montenegro
+131,,,,,132,132,Morocco
+132,,,,,133,133,Mozambique
+133,,,,,134,134,Myanmar
+134,,,,,135,135,Namibia
+135,,,,,136,136,Nepal
+136,,,,,137,137,Netherlands
+137,,98.0,,215.0,138,138,New Caledonia
+138,,,,,139,139,New Zealand
+139,,,,,140,140,Nicaragua
+140,,,,,141,141,Niger
+141,,,,,142,142,Nigeria
+142,,0.0,12.5,12.0,143,143,Northern Mariana Islands
+143,,,,,144,144,Norway
+144,,,,,145,145,Oman
+145,,,,,146,146,Pakistan
+146,,0.0,,1.0,147,147,Palau
+147,260.0,,,,148,148,Panama
+148,,,,,149,149,Papua New Guinea
+149,,,,,150,150,Paraguay
+150,,,,,151,151,Peru
+151,,,,,152,152,Philippines
+152,,,,,153,153,Poland
+153,,,,,154,154,Portugal
+154,,220.0,,,155,155,Puerto Rico
+155,,339.0,,,156,156,Qatar
+156,,,,,157,157,Romania
+157,,,,,158,158,Russian Federation
+158,,,,,159,159,Rwanda
+159,840.0,40.0,356.1,133.0,160,160,Samoa
+160,198.0,,,,161,161,San Marino
+161,,10.0,195.5,46.0,162,162,Sao Tome and Principe
+162,114.0,,,,163,163,Saudi Arabia
+163,,,,,164,164,Senegal
+164,,,,,165,165,Serbia
+165,,23.0,910.3,24.0,166,166,Seychelles
+166,495.0,,,,167,167,Sierra Leone
+167,,,,,168,168,Singapore
+168,,,,,169,169,Sint Maarten (Dutch part)
+169,733.0,,,,170,170,Slovak Republic
+170,,,,,171,171,Slovenia
+171,,,,,172,172,Solomon Islands
+172,202.0,,,,173,173,Somalia
+173,609.0,,,,174,174,South Africa
+174,,,,,175,175,South Sudan
+175,,,,,176,176,Spain
+176,,,,,177,177,Sri Lanka
+177,,15.0,,30.0,178,178,St. Kitts and Nevis
+178,231.0,35.0,598.8,44.0,179,179,St. Lucia
+179,407.0,,,,180,180,St. Martin (French part)
+180,,18.0,319.2,40.0,181,181,St. Vincent and the Grenadines
+181,209.0,,,,182,182,Sudan
+182,,273.0,,709.0,183,183,Suriname
+183,,569.0,,,184,184,Eswatini
+184,,,,,185,185,Sweden
+185,,,,,186,186,Switzerland
+186,,,,,187,187,Syrian Arab Republic
+187,,,,,188,188,Tajikistan
+188,,,,,189,189,Tanzania
+189,,,,,190,190,Thailand
+190,469.0,226.0,959.3,732.0,191,191,Timor-Leste
+191,,,,,192,192,Togo
+192,121.0,22.0,155.3,61.0,193,193,Tonga
+193,,281.0,,,194,194,Trinidad and Tobago
+194,,,,,195,195,Tunisia
+195,,,,,196,196,Turkey
+196,,,,,197,197,Turkmenistan
+197,205.0,1.0,,6.0,198,198,Turks and Caicos Islands
+198,11.0,1.0,5.2,3.0,199,199,Tuvalu
+199,,,,,200,200,Uganda
+200,,,,,201,201,Ukraine
+201,,,,,202,202,United Arab Emirates
+202,,,,,203,203,United Kingdom
+203,,,,,204,204,United States
+204,,,,,205,205,Uruguay
+205,,,,,206,206,Uzbekistan
+206,154.0,109.0,446.2,254.0,207,207,Vanuatu
+207,,,,,208,208,"Venezuela, RB"
+208,,,,,209,209,Vietnam
+209,,13.0,61.5,47.0,210,210,Virgin Islands (U.S.)
+210,,,,,211,211,West Bank and Gaza
+211,,,,,212,212,"Yemen, Rep."
+212,,,,,213,213,Zambia
+213,,,,,214,214,Zimbabwe
