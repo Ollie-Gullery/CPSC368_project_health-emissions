@@ -34,19 +34,22 @@ CREATE TABLE Environment.HealthSystem (
 );
 
 CREATE TABLE Environment.HealthExpenditure (
-    HealthSystemID INT PRIMARY KEY,
+    HealthExpenditureID INT,
+    HealthSystemID INT,
     PercentOfGDP DECIMAL,
     PercentOfPublicFunded DECIMAL,
     PercentOutOfPocketCosts DECIMAL,
     PerCapita DECIMAL,
     ExternalHealthExpenditure DECIMAL,
+    PRIMARY KEY(HealthExpenditureID, HealthSystemID),
     FOREIGN KEY (HealthSystemID) REFERENCES HealthSystem(HealthSystemID)
 );
 
 CREATE TABLE Environment.HealthWorkers (
-    HealthSystemID INT PRIMARY KEY,
-    NumberOfNursesMidwives INT,
-    NumberOfSpecialistSurgicalWorkforce INT,
+    HealthWorkerID INT PRIMARY KEY,
+    HealthSystemID INT,
+    NumberOfNursesMidwives DECIMAL,
+    NumberOfSpecialistSurgicalWorkforce DECIMAL,
     NumberOfPhysicians DECIMAL,
     FOREIGN KEY (HealthSystemID) REFERENCES HealthSystem(HealthSystemID)
 );
@@ -73,15 +76,16 @@ CREATE TABLE Environment.PopulationCauseOfDeath (
 );
 
 CREATE TABLE Environment.PrevalenceOfHIV (
-    IncidenceOfHIV INT,
+    HIVID INT,
+    IncidenceOfHIV DECIMAL,
     DeathID INT,
     YouthMale DECIMAL,
     YouthFemale DECIMAL,
     WomanAge15Plus DECIMAL,
-    PRIMARY KEY (IncidenceOfHIV, DeathID),
+    PRIMARY KEY (HIVID, DeathID),
     FOREIGN KEY (DeathID) REFERENCES PopulationCauseOfDeath(DeathID)
 );
 
-
+-- change incidence of HIV primary key
 -- Adding Tuples:
 -- Adding into Country:
