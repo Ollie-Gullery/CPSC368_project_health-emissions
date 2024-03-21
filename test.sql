@@ -8,10 +8,8 @@ CREATE SCHEMA Environment;
 -- Adding in the tables:
 
 CREATE TABLE Environment.Country (
-    CountryID INT,
-    Name VARCHAR(30),
-    PRIMARY KEY (CountryID),
-    UNIQUE (CountryID, Name)
+    CountryID INT PRIMARY KEY,
+    Name VARCHAR(30)
 );
 
 CREATE TABLE Environment.EmissionData (
@@ -21,8 +19,7 @@ CREATE TABLE Environment.EmissionData (
     TotalGHGEmissions DECIMAL,
     MethaneEmissions DECIMAL,
     CountryID INT,
-    Name VARCHAR(30),
-    FOREIGN KEY (CountryID, Name) REFERENCES Country(CountryID, Name)
+    FOREIGN KEY (CountryID) REFERENCES Country(CountryID)
 );
 
 CREATE TABLE Environment.HealthSystem (
@@ -81,7 +78,3 @@ CREATE TABLE Environment.PrevalenceOfHIV (
     PRIMARY KEY (IncidenceOfHIV, DeathID),
     FOREIGN KEY (DeathID) REFERENCES PopulationCauseOfDeath(DeathID)
 );
-
-
--- Adding Tuples:
--- Adding into Country:
