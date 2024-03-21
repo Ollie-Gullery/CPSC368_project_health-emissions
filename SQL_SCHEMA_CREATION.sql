@@ -3,16 +3,16 @@
 -- Project by Kourosh Shahbazi, Oliver Gullery, Riddhi Battu & Sam Thorne | 83910448
 
 -- Creating schema
-
+CREATE SCHEMA Environment;
 
 -- Adding in the tables:
 
-CREATE TABLE Country (
+CREATE TABLE Environment.Country (
     CountryID INT PRIMARY KEY,
     Name VARCHAR(30)
 );
 
-CREATE TABLE EmissionData (
+CREATE TABLE Environment.EmissionData (
     EmissionID INT PRIMARY KEY,
     CarbonDioxideEmissions DECIMAL,
     NitrousOxideEmissions DECIMAL,
@@ -22,7 +22,7 @@ CREATE TABLE EmissionData (
     FOREIGN KEY (CountryID) REFERENCES Country(CountryID)
 );
 
-CREATE TABLE HealthSystem (
+CREATE TABLE Environment.HealthSystem (
     HealthSystemID INT PRIMARY KEY,
     CountryID INT,
     CompletenessOfBirthRegistration DECIMAL,
@@ -30,7 +30,7 @@ CREATE TABLE HealthSystem (
     FOREIGN KEY (CountryID) REFERENCES Country(CountryID)
 );
 
-CREATE TABLE HealthExpenditure (
+CREATE TABLE Environment.HealthExpenditure (
     HealthSystemID INT PRIMARY KEY,
     PercentOfGDP DECIMAL,
     PercentOfPublicFunded DECIMAL,
@@ -40,7 +40,7 @@ CREATE TABLE HealthExpenditure (
     FOREIGN KEY (HealthSystemID) REFERENCES HealthSystem(HealthSystemID)
 );
 
-CREATE TABLE HealthWorkers (
+CREATE TABLE Environment.HealthWorkers (
     HealthSystemID INT PRIMARY KEY,
     NumberOfNursesMidwives INT,
     NumberOfSpecialistSurgicalWorkforce INT,
@@ -48,7 +48,7 @@ CREATE TABLE HealthWorkers (
     FOREIGN KEY (HealthSystemID) REFERENCES HealthSystem(HealthSystemID)
 );
 
-CREATE TABLE HealthRiskFactors (
+CREATE TABLE Environment.HealthRiskFactors (
     HealthRiskFactorID INT PRIMARY KEY,
     CountryID INT,
     HealthSystemID INT,
@@ -60,7 +60,7 @@ CREATE TABLE HealthRiskFactors (
     FOREIGN KEY (HealthSystemID) REFERENCES HealthSystem(HealthSystemID)
 );
 
-CREATE TABLE PopulationCauseOfDeath (
+CREATE TABLE Environment.PopulationCauseOfDeath (
     DeathID INT PRIMARY KEY,
     HealthRiskFactorID INT,
     Injuries DECIMAL,
@@ -69,11 +69,14 @@ CREATE TABLE PopulationCauseOfDeath (
     FOREIGN KEY (HealthRiskFactorID) REFERENCES HealthRiskFactors(HealthRiskFactorID)
 );
 
-CREATE TABLE PrevalenceOfHIV (
-    IncidenceOfHIV INT PRIMARY KEY,
+CREATE TABLE Environment.PrevalenceOfHIV (
+    IncidenceOfHIV INT,
+    DeathID INT,
     YouthMale DECIMAL,
     YouthFemale DECIMAL,
-    WomanAge15Plus DECIMAL
+    WomanAge15Plus DECIMAL,
+    PRIMARY KEY (IncidenceOfHIV, DeathID),
+    FOREIGN KEY (DeathID) REFERENCES PopulationCauseOfDeath(DeathID)
 );
 
 

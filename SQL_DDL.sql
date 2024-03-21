@@ -3,77 +3,77 @@
 -- Project by Kourosh Shahbazi, Oliver Gullery, Riddhi Battu & Sam Thorne | 83910448
 
 -- Creating schema
-
+CREATE SCHEMA Environment;
 
 -- Adding in the tables:
 
-CREATE TABLE Country (
+CREATE TABLE Environment.Country (
     CountryID INT PRIMARY KEY,
     Name VARCHAR(30)
 );
 
-CREATE TABLE EmissionData (
+CREATE TABLE Environment.EmissionData (
     EmissionID INT PRIMARY KEY,
-    CarbonDioxideEmissions FLOAT,
-    NitrousOxideEmissions FLOAT,
-    TotalGHGEmissions FLOAT,
-    MethaneEmissions FLOAT,
+    CarbonDioxideEmissions DECIMAL,
+    NitrousOxideEmissions DECIMAL,
+    TotalGHGEmissions DECIMAL,
+    MethaneEmissions DECIMAL,
     CountryID INT,
     FOREIGN KEY (CountryID) REFERENCES Country(CountryID)
 );
 
-CREATE TABLE HealthSystem (
+CREATE TABLE Environment.HealthSystem (
     HealthSystemID INT PRIMARY KEY,
     CountryID INT,
-    CompletenessOfBirthRegistration FLOAT,
-    CompletenessOfDeathRegistration FLOAT,
+    CompletenessOfBirthRegistration DECIMAL,
+    CompletenessOfDeathRegistration DECIMAL,
     FOREIGN KEY (CountryID) REFERENCES Country(CountryID)
 );
 
-CREATE TABLE HealthExpenditure (
+CREATE TABLE Environment.HealthExpenditure (
     HealthSystemID INT PRIMARY KEY,
-    PercentOfGDP FLOAT,
-    PercentOfPublicFunded FLOAT,
-    PercentOutOfPocketCosts FLOAT,
-    PerCapita FLOAT,
-    ExternalHealthExpenditure FLOAT,
+    PercentOfGDP DECIMAL,
+    PercentOfPublicFunded DECIMAL,
+    PercentOutOfPocketCosts DECIMAL,
+    PerCapita DECIMAL,
+    ExternalHealthExpenditure DECIMAL,
     FOREIGN KEY (HealthSystemID) REFERENCES HealthSystem(HealthSystemID)
 );
 
-CREATE TABLE HealthWorkers (
+CREATE TABLE Environment.HealthWorkers (
     HealthSystemID INT PRIMARY KEY,
     NumberOfNursesMidwives INT,
     NumberOfSpecialistSurgicalWorkforce INT,
-    NumberOfPhysicians FLOAT,
+    NumberOfPhysicians DECIMAL,
     FOREIGN KEY (HealthSystemID) REFERENCES HealthSystem(HealthSystemID)
 );
 
-CREATE TABLE HealthRiskFactors (
+CREATE TABLE Environment.HealthRiskFactors (
     HealthRiskFactorID INT PRIMARY KEY,
     CountryID INT,
     HealthSystemID INT,
-    MaleTobaccoUse FLOAT,
-    FemaleTobaccoUse FLOAT,
-    IncidenceOfTuberculosis FLOAT,
-    PrevalenceOfDiabetes FLOAT,
+    MaleTobaccoUse DECIMAL,
+    FemaleTobaccoUse DECIMAL,
+    IncidenceOfTuberculosis DECIMAL,
+    PrevalenceOfDiabetes DECIMAL,
     FOREIGN KEY (CountryID) REFERENCES Country(CountryID),
     FOREIGN KEY (HealthSystemID) REFERENCES HealthSystem(HealthSystemID)
 );
 
-CREATE TABLE PopulationCauseOfDeath (
+CREATE TABLE Environment.PopulationCauseOfDeath (
     DeathID INT PRIMARY KEY,
     HealthRiskFactorID INT,
-    Injuries FLOAT,
-    NonCommunicableDiseases FLOAT,
-    CommunicableDiseases FLOAT,
+    Injuries DECIMAL,
+    NonCommunicableDiseases DECIMAL,
+    CommunicableDiseases DECIMAL,
     FOREIGN KEY (HealthRiskFactorID) REFERENCES HealthRiskFactors(HealthRiskFactorID)
 );
 
-CREATE TABLE PrevalenceOfHIV (
+CREATE TABLE Environment.PrevalenceOfHIV (
     IncidenceOfHIV INT PRIMARY KEY,
-    YouthMale FLOAT,
-    YouthFemale FLOAT,
-    WomanAge15Plus FLOAT
+    YouthMale DECIMAL,
+    YouthFemale DECIMAL,
+    WomanAge15Plus DECIMAL
 );
 
 
