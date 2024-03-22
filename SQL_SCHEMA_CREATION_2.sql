@@ -14,6 +14,8 @@ CREATE TABLE Country (
     UNIQUE (CountryID, Name)
 );
 
+grant select on Country to public;
+
 CREATE TABLE EmissionData (
     EmissionID INT PRIMARY KEY,
     CarbonDioxideEmissions DECIMAL,
@@ -25,6 +27,8 @@ CREATE TABLE EmissionData (
     FOREIGN KEY (CountryID, Name) REFERENCES Country(CountryID, Name)
 );
 
+grant select on EmissionData to public;
+
 CREATE TABLE HealthSystem (
     HealthSystemID INT PRIMARY KEY,
     CountryID INT,
@@ -32,6 +36,8 @@ CREATE TABLE HealthSystem (
     CompletenessOfDeathRegistration DECIMAL,
     FOREIGN KEY (CountryID) REFERENCES Country(CountryID)
 );
+
+grant select on HealthSystem to public;
 
 CREATE TABLE HealthExpenditure (
     HealthExpenditureID INT,
@@ -45,6 +51,8 @@ CREATE TABLE HealthExpenditure (
     FOREIGN KEY (HealthSystemID) REFERENCES HealthSystem(HealthSystemID)
 );
 
+grant select on HealthExpenditure to public;
+
 CREATE TABLE HealthWorkers (
     HealthWorkerID INT PRIMARY KEY,
     HealthSystemID INT,
@@ -53,6 +61,8 @@ CREATE TABLE HealthWorkers (
     NumberOfPhysicians DECIMAL,
     FOREIGN KEY (HealthSystemID) REFERENCES HealthSystem(HealthSystemID)
 );
+
+grant select on HealthWorkers to public;
 
 CREATE TABLE HealthRiskFactors (
     HealthRiskFactorID INT PRIMARY KEY,
@@ -66,6 +76,8 @@ CREATE TABLE HealthRiskFactors (
     FOREIGN KEY (HealthSystemID) REFERENCES HealthSystem(HealthSystemID)
 );
 
+grant select on HealthRiskFactors to public;
+
 CREATE TABLE PopulationCauseOfDeath (
     DeathID INT PRIMARY KEY,
     HealthRiskFactorID INT,
@@ -74,6 +86,8 @@ CREATE TABLE PopulationCauseOfDeath (
     CommunicableDiseases DECIMAL,
     FOREIGN KEY (HealthRiskFactorID) REFERENCES HealthRiskFactors(HealthRiskFactorID)
 );
+
+grant select on PopulationCauseOfDeath to public;
 
 CREATE TABLE PrevalenceOfHIV (
     HIVID INT,
@@ -85,6 +99,8 @@ CREATE TABLE PrevalenceOfHIV (
     PRIMARY KEY (HIVID, DeathID),
     FOREIGN KEY (DeathID) REFERENCES PopulationCauseOfDeath(DeathID)
 );
+
+grant select on PrevalenceOfHIV to public;
 
 -- change incidence of HIV primary key
 -- Adding Tuples:
