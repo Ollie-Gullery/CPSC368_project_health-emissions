@@ -32,7 +32,7 @@ To facilitate the project evaluation, we suggest using the following Oracle acco
 - Password: `a95292827`
 
 
-## Usage
+## Usage `assignment5.ipynb`
 
 1. Connect to the Oracle database using the provided credentials.
 2. Execute the provided SQL script to fetch the required data.
