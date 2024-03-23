@@ -22,7 +22,7 @@ pip install pandas scikit-learn statsmodels numpy matplotlib oracledb
 
 ## Database Setup
 
-The analysis relies on a series of datasets stored in an Oracle database. The teaching team may opt to populate their own database with the provided SQL DDL file or use an existing Oracle account.
+The analysis relies on a series of datasets stored in an Oracle database. The teaching team may opt to populate their own database with the provided SQL DDL file (`SQL_SCHEMA_CREATION_2.sql`) or use an existing Oracle account.
 
 ### Using a Team Member's Oracle Account
 
