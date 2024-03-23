@@ -1,4 +1,4 @@
-# Project Title: Health Impact of Emissions Analysis
+# Project Title: Health Problems and Emissions Analysis
 
 Team Members: Oliver Gullery (95292827), Sam Thorne (83910448), Riddhi Battu (85855856), Kourosh Shahbazi (87286076)
 
