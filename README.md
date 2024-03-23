@@ -1,5 +1,7 @@
 # Project Title: Health Impact of Emissions Analysis
 
+Team Members: Oliver Gullery (95292827), Sam Thorne (83910448), Riddhi Battu (85855856), Kourosh Shahbazi (87286076)
+
 ## Overview
 
 This project explores the potential effects of a country's emissions on the health of its citizens and residents. By analyzing emissions data alongside health indicators, we aim to assess the environmental and social sustainability of current emissions rates. This interdisciplinary analysis seeks to bridge the gap between environmental sustainability (focused on emissions control) and social sustainability (centered around health and healthcare), aiming to highlight the bearability of current emissions practices on public health.
